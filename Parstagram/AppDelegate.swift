@@ -18,12 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         // Initialize Parse
         // Set applicationId and server based on the values in the Heroku settings.
-        Parse.initialize(
-            with: ParseClientConfiguration(block: { (configuration: ParseMutableClientConfiguration) -> Void in
-                configuration.applicationId = "Parstagram"
-                configuration.server = "https://stark-everglades-14368.herokuapp.com/parse"
-            })
-        )
+    
         return true
     }
 

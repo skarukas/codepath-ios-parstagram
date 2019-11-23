@@ -59,7 +59,7 @@ class CaptureViewController: UIViewController, UIImagePickerControllerDelegate, 
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         var image = info[.editedImage] as! UIImage
         let size = CGSize(width: 300, height: 300)
-        image = image.af_imageScaled(to: size)
+        image = image.af_imageAspectScaled(toFill: size)
         capturedImage.image = image
         dismiss(animated: true, completion: nil)
     }

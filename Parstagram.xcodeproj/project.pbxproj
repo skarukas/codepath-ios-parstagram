@@ -19,6 +19,8 @@
 		1E27C635237F9234002819EC /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E27C634237F9234002819EC /* FeedViewController.swift */; };
 		1E27C637237F9FEC002819EC /* CaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E27C636237F9FEC002819EC /* CaptureViewController.swift */; };
 		1E27C639237FA80D002819EC /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E27C638237FA80D002819EC /* PostCell.swift */; };
+		1EB095792388CCF600273E63 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB095782388CCF600273E63 /* CommentCell.swift */; };
+		1EB0957B2388DEA500273E63 /* parsta-story2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1EB0957A2388DEA500273E63 /* parsta-story2.gif */; };
 		5BF4A948F5149FC928828AFF /* Pods_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C934F01A391C4A3708023F4C /* Pods_Parstagram.framework */; };
 		CD80F99DECD9A5CF3F61C31D /* Pods_Parstagram_ParstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A6F02B4A781328B5FC058DB /* Pods_Parstagram_ParstagramUITests.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +60,8 @@
 		1E27C634237F9234002819EC /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		1E27C636237F9FEC002819EC /* CaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureViewController.swift; sourceTree = "<group>"; };
 		1E27C638237FA80D002819EC /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		1EB095782388CCF600273E63 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		1EB0957A2388DEA500273E63 /* parsta-story2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "parsta-story2.gif"; sourceTree = SOURCE_ROOT; };
 		273EF16105A1CC62934E0EDE /* Pods-Parstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram.release.xcconfig"; path = "Target Support Files/Pods-Parstagram/Pods-Parstagram.release.xcconfig"; sourceTree = "<group>"; };
 		2A6F02B4A781328B5FC058DB /* Pods_Parstagram_ParstagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parstagram_ParstagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36FB5BEE110A4A4CFC178356 /* Pods_ParstagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParstagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +126,7 @@
 		1E27C601237F8B70002819EC /* Parstagram */ = {
 			isa = PBXGroup;
 			children = (
+				1EB0957A2388DEA500273E63 /* parsta-story2.gif */,
 				1E27C602237F8B70002819EC /* AppDelegate.swift */,
 				1E27C604237F8B70002819EC /* SceneDelegate.swift */,
 				1E27C608237F8B70002819EC /* Main.storyboard */,
@@ -132,6 +137,7 @@
 				1E27C634237F9234002819EC /* FeedViewController.swift */,
 				1E27C636237F9FEC002819EC /* CaptureViewController.swift */,
 				1E27C638237FA80D002819EC /* PostCell.swift */,
+				1EB095782388CCF600273E63 /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -286,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EB0957B2388DEA500273E63 /* parsta-story2.gif in Resources */,
 				1E27C60F237F8B75002819EC /* LaunchScreen.storyboard in Resources */,
 				1E27C60C237F8B75002819EC /* Assets.xcassets in Resources */,
 				1E27C60A237F8B70002819EC /* Main.storyboard in Resources */,
@@ -422,6 +429,7 @@
 				1E27C639237FA80D002819EC /* PostCell.swift in Sources */,
 				1E27C605237F8B70002819EC /* SceneDelegate.swift in Sources */,
 				1E27C637237F9FEC002819EC /* CaptureViewController.swift in Sources */,
+				1EB095792388CCF600273E63 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
